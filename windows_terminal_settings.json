@@ -42,6 +42,10 @@
       "keys": "ctrl+shift+tab"
     },
     {
+      "command": "unbound",
+      "keys": "ctrl+alt+'"
+    },
+    {
       "command": "paste",
       "keys": "ctrl+v"
     },
@@ -81,19 +85,20 @@
       "command": {
         "action": "prevTab"
       },
-      "keys": "ctrl+alt+k"
+      "keys": "ctrl+alt+j"
     },
     {
       "command": {
         "action": "nextTab"
       },
-      "keys": "ctrl+alt+j"
+      "keys": "ctrl+alt+k"
     }
   ],
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "focusFollowMouse": false,
+  "launchMode": "maximized",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
